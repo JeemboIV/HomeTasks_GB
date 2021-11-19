@@ -7,7 +7,9 @@ int result;
 
 int main()
 {
-    cout << "Задайте целочистленное значение: ";
+    setlocale("LC_ALL", ru);
+    
+    cout << "Задайте целочисленное значение: ";
     cin >> number;
 
     result = (number <= 21) ? number - 21 : 2 * (number - 21);
