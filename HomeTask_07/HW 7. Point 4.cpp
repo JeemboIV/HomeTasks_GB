@@ -38,6 +38,8 @@ int main()
     file << "Specialization: " << Employee1->Specialization << endl;
     file << "Departament: " << Employee1->Departament << endl << endl;
     file << sizeof(Employee1);
+    
+    delete Employee1;
 
     return 0;
 }
